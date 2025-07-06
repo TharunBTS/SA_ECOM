@@ -1,0 +1,44 @@
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #3f51b5;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+button {
+  align-self: center;
+  padding: 10px 20px;
+  background-color: #3f51b5;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #303f9f;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 20px;
+    padding: 20px;
+  }
+}

@@ -1,0 +1,145 @@
+/* Container Centering */
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1000px;
+}
+
+/* Section Headings */
+.section-heading {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/* PRODUCT CARD */
+.product-card {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.product-image img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+  border-right: 1px solid #eee;
+}
+
+.product-details {
+  padding: 20px;
+  flex: 1;
+}
+
+.product-details h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.product-details .description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.product-details .price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #009688;
+  margin-bottom: 8px;
+}
+
+.product-details .category {
+  font-size: 14px;
+  color: #555;
+}
+
+/* REVIEWS */
+.review-list {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.review-card {
+  display: flex;
+  align-items: flex-start;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  width: 100%;
+}
+
+.review-image img.small-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-right: 16px;
+}
+
+.review-details {
+  flex: 1;
+}
+
+.review-details h2 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 8px 0;
+}
+
+.details-row {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* FAQ Section */
+.faq-details {
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+  width: 100%;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
+.question,
+.answer {
+  font-weight: bold;
+  color: #444;
+  margin: 0;
+}
+
+.question-text,
+.answer-text {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+
+.heart-icon {
+  font-size: 28px;
+  color: #e91e63; /* Pink accent for wishlist icon */
+  transition: transform 0.2s, color 0.2s;
+}
+
+.heart-icon:hover {
+  transform: scale(1.2);
+  color: #ad1457; /* Darker pink on hover */
+  cursor: pointer;
+}

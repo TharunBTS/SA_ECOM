@@ -1,0 +1,38 @@
+/* Add padding and align cells */
+mat-header-cell, mat-cell {
+  padding: 12px;
+}
+
+/* Make header text uppercase and bold */
+mat-header-cell {
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #e0e0e0; /* light gray header background */
+}
+
+/* Zebra stripe rows */
+mat-row:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect */
+mat-row:hover {
+  background-color: #e3f2fd;
+}
+
+/* Make table fill container */
+mat-table {
+  width: 100%;
+  overflow: auto;
+}
+
+/* Optional: add some margin */
+.mat-elevation-z8 {
+  margin: 20px 0;
+}
+
+/* If you have action buttons inside cells */
+.action-buttons {
+  display: flex;
+  gap: 8px;
+}

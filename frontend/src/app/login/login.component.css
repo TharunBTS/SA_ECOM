@@ -1,0 +1,58 @@
+/* Container and Card Styling */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f6f8;
+}
+
+mat-card {
+  width: 400px;
+  padding: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Field Styling */
+/* Ensure mat-form-field spans full width */
+mat-form-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Vertically center the eye icon */
+mat-form-field button.mat-icon-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0.75rem;
+  padding: 0;
+}
+
+
+/* Button Styling */
+.login-button {
+  width: 100%;
+  background-color: #3f51b5;
+  color: white;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+/* Additional Styling */
+mat-card-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+mat-card-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+mat-card-actions button {
+  font-size: 14px;
+}

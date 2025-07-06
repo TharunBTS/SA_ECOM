@@ -1,0 +1,57 @@
+/* Container padding */
+div[style*="padding"] {
+  padding: 30px;
+}
+
+/* Flex layout for analytics cards */
+.analytics-continer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 30px;
+  justify-content: center;
+}
+
+/* Individual card styling */
+.analytics-card {
+  width: 300px;
+  min-height: 200px;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+}
+
+/* Avatar circle in header */
+.status-avatar {
+  background-color: #3f51b5;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+/* Metric value */
+.metric-value {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Subtext */
+.metric-subtext {
+  font-size: 14px;
+  color: #666;
+  margin-top: 4px;
+}
+
+/* Styling for the second card-content (previous month) */
+.previous-month {
+  margin-top: 15px;
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+}

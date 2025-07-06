@@ -1,0 +1,38 @@
+<div class="container">
+
+    <h2>Post FAQ</h2><br><br>
+
+    
+            <form [formGroup]="FAQForm" (ngSubmit) = "postFAQ()">
+
+                
+
+                <mat-form-field appearance="outline">
+                    <mat-label>Question</mat-label>
+                    <textarea matInput  formControlName="question"  required></textarea>
+                    <mat-error *ngIf="FAQForm.get('question')?.hasError('required')">
+                        This input is required!
+                    </mat-error>
+                </mat-form-field>
+
+
+                <mat-form-field appearance="outline">
+                    <mat-label>Answer</mat-label>
+                    <textarea matInput  formControlName="answer"  required></textarea>
+                    <mat-error *ngIf="FAQForm.get('answer')?.hasError('required')">
+                        This input is required!
+                    </mat-error>
+                </mat-form-field>
+
+                
+
+                
+
+                <button mat-raised-button  type="submit" >
+                    Post FAQ
+                </button>
+
+            </form>
+            </div>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,37 @@
+.order-status-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 30px auto;
+}
+
+.order-status-card {
+  width: 200px;
+  min-height: 150px;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.status-avatar {
+  background-color: #3f51b5;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+/* Order status value styling */
+.status-value {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-top: 10px;
+  text-align: center;
+}

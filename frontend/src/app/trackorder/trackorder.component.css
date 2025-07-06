@@ -1,0 +1,60 @@
+/* Center the form nicely */
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin: 24px 0;
+}
+
+/* Make the form field a reasonable width */
+.search-input {
+  width: 350px;
+}
+
+/* Align the submit button inside the input field */
+.search-input button {
+  margin-left: 8px;
+}
+
+/* Style the order card container */
+.order-details-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+/* Card itself */
+mat-card {
+  width: 400px;
+  padding: 16px;
+}
+
+/* Each detail row */
+.order-detail {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+  font-size: 15px;
+}
+
+/* Detail labels */
+.order-detail strong {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Card title styling */
+mat-card-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Responsive: smaller screens */
+@media (max-width: 480px) {
+  .search-input {
+    width: 90%;
+  }
+
+  mat-card {
+    width: 90%;
+  }
+}

@@ -1,0 +1,15 @@
+.container {
+  margin: 16px;
+}
+
+.full-width-table {
+  width: 100%;
+}
+
+mat-card {
+  padding: 16px;
+}
+
+mat-header-cell, mat-cell {
+  padding: 8px;
+}

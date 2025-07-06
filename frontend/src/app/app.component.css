@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  font-size: 16px;
+  height: 64px;
+  background-color: #1976d2; /* primary default */
+  color: white;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+button.mat-button {
+  color: white;
+  font-weight: 500;
+  margin-left: 8px;
+}
+
+button.active {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
